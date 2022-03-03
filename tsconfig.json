@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "jsxFactory": "createElement",
+    "baseUrl": ".",
+    "target": "ES2015",
+    // "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["dom", "es2020"],
+    "outDir": "dist/js"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
